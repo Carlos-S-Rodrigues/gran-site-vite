@@ -59,11 +59,11 @@ function NavBar() {
               </NavItem>
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="/sign-up">
+                  <NavBtnLink to="https://wa.me/5522997420134">
                     <Button primary>Contato</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="/sign-up">
+                  <NavBtnLink to="https://wa.me/5522997420134">
                     <Button fontBig primary>
                       Contato
                     </Button>
