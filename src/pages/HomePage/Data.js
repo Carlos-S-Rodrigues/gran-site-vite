@@ -11,7 +11,7 @@ export const homeObjOne = {
   headline: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   topLine: 'Gran Primus',
   lightText: true,
-  img: ('../../images/img03.svg'),
+  img: '/images/img03.svg',
   alt: '',
   start: ''
 }
@@ -29,7 +29,7 @@ export const homeObjTwo = {
   headline: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   topLine: 'Gran Primus',
   lightText: false,
-  img: ('../../images/img03.svg'),
+  img: '/images/img01.svg',
   alt: '',
   start: ''
 }
@@ -47,7 +47,7 @@ export const homeObjThree = {
   headline: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   topLine: 'Gran Primus',
   lightText: true,
-  img: ('../../images/img03.svg'),
+  img: '/images/img02.svg',
   alt: '',
   start: ''
 }
@@ -65,7 +65,7 @@ export const homeObjFour = {
   headline: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
   topLine: 'Gran Primus',
   lightText: true,
-  img: ('../../images/img03.svg'),
+  img: '/images/profile01.jpg',
   alt: '',
   start: ''
 }

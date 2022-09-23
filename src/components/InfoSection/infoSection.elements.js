@@ -72,6 +72,8 @@ export const Img = styled.img`
   padding-right: 0;
   border: 0;
   max-width: 100%;
+  width: 400px;
+  height: 400px;
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
