@@ -18,8 +18,6 @@ const ProductButtons = () => {
     
   }
 
-  
-
   return (
     <>
       <PageWrapper>
