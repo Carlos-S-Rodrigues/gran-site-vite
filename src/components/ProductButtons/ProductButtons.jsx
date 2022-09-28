@@ -6,13 +6,25 @@ const ProductButtons = () => {
   const [toggle, setToggle] = useState(false)
   const [toggle2, setToggle2] = useState(false)
 
+  const handleClick = event =>{
+    setToggle(current => !current)
+    setToggle2(false)
+    
+  }
 
+  const handleClick2 = event =>{
+    setToggle(false)
+    setToggle2(current => !current)
+    
+  }
+
+  
 
   return (
     <>
       <PageWrapper>
-        <ButtonStyle onClick={() => setToggle(!toggle)}>Pedras Naturais</ButtonStyle>
-        <ButtonStyle onClick={() => setToggle2(!toggle2)}>Pedras industrializadas</ButtonStyle>
+        <ButtonStyle onClick={() => handleClick()}>Pedras Naturais</ButtonStyle>
+        <ButtonStyle onClick={() => handleClick2()}>Pedras industrializadas</ButtonStyle>
       
         {toggle && (
           <>
