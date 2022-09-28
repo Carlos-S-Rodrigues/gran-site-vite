@@ -38,7 +38,7 @@ function InfoSection({
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to="/sign-up">
+                <Link to="https://wa.me/5522997420134">
                   <Button big fontBig primary={primary}>
                     {buttonLabel}
                   </Button>

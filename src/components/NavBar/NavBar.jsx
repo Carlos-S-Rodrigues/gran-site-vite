@@ -60,7 +60,7 @@ function NavBar() {
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="https://wa.me/5522997420134">
-                    <Button primary>Contato</Button>
+                    <Button primary>Whatsapp</Button>
                   </NavBtnLink>
                 ) : (
                   <NavBtnLink to="https://wa.me/5522997420134">
